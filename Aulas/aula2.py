@@ -57,7 +57,7 @@ print(type(a))
 """para trabalharmos com  módulos usamos o comando import, esse comando vai trazer tudo que estiver dentro do modulo,
 seu eu quiser trazer algo especifico do modulo uso a condição from.
 exemplo - import bebida (vai trazer todo o conteudo que tiver no modulo bebida)
-          from doce import pudi(vai trazer apenas o conteudo pudim que esta dentro do modulo doce)
+          from doce import pudim(vai trazer apenas o conteudo pudim que esta dentro do modulo doce)
 math - significa matematica, vai trazer algumas funcionalidades matemáticas extras. Quando usarmos o import math teremos
 um monte de funcionalidades extras.
 exemplo: para arredondar o valor para cima uso o comando ceil
