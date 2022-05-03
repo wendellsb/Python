@@ -1,6 +1,7 @@
 #  -*- coding: utf-8 -*-
 
-#estrutura de repetição for - para percorrer os itens de uma lista, ou tupla ...intervalo, para usarmos o for precisamos saber  o limite inicial e final
+#estrutura de repetição for - para percorrer os itens de uma lista, ou tupla ...intervalo, para usarmos
+# o for precisamos saber  o limite inicial e final
 nome= ['Camila', 'Flavio', 'Luana']
 for n in nome :
     print('Os nomes da lista são: ', n)
@@ -79,7 +80,7 @@ print('Essa turma é nota 1000')
 lanche=('Hamburguer','Suco', 'Pizza','Bolo')
 for cont in range(0, len(lanche)) : #len - para mostrar a quantidade de elementos de uma string
     print(f'Eu vou comer {lanche[cont]}')
-print('Depois de comer tudo isso vou roloar igual uma bola!!!')
+print('Depois de comer tudo isso vou rolar igual uma bola!!!')
 
 #outra forma de fazer usando o enumarate, para mostrar a posição dos elementos
 
@@ -114,7 +115,8 @@ b=(5,8,2,1)
 c=a+b
 print('O numero 5 se repete:' , c.count(5))
 
-#index() - para saber a posição que o elemento se encontra, quando o elemento for repetido ele mostra a primeira posição
+#index() - para saber a posição que o elemento se encontra, quando o elemento for 
+# repetido ele mostra a primeira posição
 
 print('O 5 encontra-se na posição: ',c.index(5))
 
@@ -136,39 +138,32 @@ num[2]=3 #alterando o valor da posição 2 de 9 para 3
 print(num)
 
 #min() - para mostrar o menor valor
-
 numeros=[10.55, 67, 90.2, 10, 21.7]
 print('O menor valor da lista é: ', min(numeros))
 
 #max() - para mostrar o maior valor
-
 print('O maior valor da lista é: ', max(numeros))
 
 #sum() - para somar todos os valores da lista
-
 num1 = [10,20,30,40,50]
 print('A soma dos valores da lista é: ',sum(num1))
 
 #append() - para adicionar elementos no final da lista
-
 lista = [1,2,3,4,5]
 lista.append('maça')
 print(lista)
 
 #insert() - para adicionar elementos na posição que vc quiser
-
 lanche=['Hamburguer','Suco', 'Pizza','Bolo']
 lanche.insert(2,'maça')
 print(lanche)
 
 #pop() - apaga o ultimo elemento da lista
-
 lanche.pop()
 print('A nova lista é: ',lanche)
 
 lanche.pop(2) #definindo a posição a ser apagada
 print('A nova lista é: ',lanche)
-
 #del() - para remover um determinado elemento da lista
 
 del lanche[2]
@@ -182,12 +177,10 @@ del lanche[ : ]
 print(lanche)
 
 #remove() - apaga pelo elemento e não pela posição
-
 lanche=['Hamburguer','Suco', 'Pizza','Bolo']
 lanche.remove('Pizza')
 print(lanche)
 
 #criando uma lista usando o range
-
 valor = list(range(4,11))
 print(valor)
