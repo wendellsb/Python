@@ -184,3 +184,11 @@ print(lanche)
 #criando uma lista usando o range
 valor = list(range(4,11))
 print(valor)
+
+# valores.sort() coloca em ordem
+# valores.sort(reverse=True) coloca em ordem inversa
+
+# para criar uma nova lista da forma correta
+a = [2, 3, 4, 7]
+b = a[:]
+b[2] = 8
